@@ -1,0 +1,72 @@
+# ============================
+# Skill Ageing Project - Git Ignore
+# ============================
+
+# --- Python build & cache files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.dll
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# --- Data files ---
+# (All heavy or temporary datasets stay local)
+*.json
+*.tsv
+*.xls*
+*.parquet
+*.feather
+*.pkl
+*.zip
+*.gz
+
+# --- Notebooks & checkpoints ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# --- Streamlit cache ---
+.streamlit/
+.cache/
+__cache__/
+
+# --- VS Code settings ---
+.vscode/
+.history/
+*.code-workspace
+
+# --- OS generated files ---
+ehthumbs.db
+desktop.ini
+
+# --- Misc ---
+*.db
+*.sqlite
+*.rdb
+*.sdb
+*.tar
+*.tar.gz
+
+# --- Reports or output files ---
+output/
+reports/
+exports/
+
+# --- Large Stack Overflow chunks ---
+Posts_chunk_*.json
+
